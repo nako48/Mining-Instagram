@@ -34,7 +34,7 @@ mining(){
 	if [[ $ambil =~ "photo_url" ]]; then
 		printf "Ambil => Balance $getbalance\n" 
 	else
-		printf "Ambil => Belance Skiped\n" 	
+		printf "Ambil => Balance Skiped\n" 	
 	fi
 }
 getfoll(){
