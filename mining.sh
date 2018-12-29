@@ -1,4 +1,6 @@
 #!/bin/bash
+#Code By : NakoCoders
+#Thanks For Momo-chan
 banner(){
 	printf "${GREEN}
 	####################################
