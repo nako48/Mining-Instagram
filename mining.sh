@@ -37,8 +37,8 @@ fi
 getfoll(){
 satudigit=$(cat /dev/urandom | tr -dc '0-9' | fold -w 1 | head -n 1)
 duadigit=$(cat /dev/urandom | tr -dc '0-9' | fold -w 2 | head -n 1)
-deviceid="e16acc37a1dee996_26" #set 
-devicehash="475aa933d1c9517177f4d1f9548b6a6f" #set
+deviceid="masukan device id" #set 
+devicehash="masukan device hash" #set
 follow=$(curl -s 'http://followers.interinstplus.com/api.php' -H 'User-Agent: okhttp/'$satudigit'.'$satudigit'.'$satudigit'.'$duadigit'' -H 'Content-Type: application/x-www-form-urlencoded' --data "method=order.follow&device_id=$deviceid&device_hash=$devicehash&order_id=$getdata&user_id=$folowerid&skip=0&info=ok")
 }
 getbalance(){
