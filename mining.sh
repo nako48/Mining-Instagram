@@ -22,7 +22,7 @@ banner(){
 	------------------------------------
 	          NAKO MINING KUYS
 	------------------------------------
-	"
+"
 }
 mining(){
 	getfoll && getbalance
